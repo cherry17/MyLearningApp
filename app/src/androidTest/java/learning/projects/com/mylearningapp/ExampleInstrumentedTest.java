@@ -22,5 +22,7 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("learning.projects.com.mylearningapp", appContext.getPackageName());
+
+        //Simple modification.
     }
 }
